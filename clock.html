@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>SIVAJI PROMODORA CLOCK</title>
+    
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body>
+
+  <div class="title">
+
+    <h1>Pomodoro Productivity Clock</h1>
+
+  </div>
+
+  <div class="previewBox">
+    <button id="preview" >10 Second Demonstration</button>
+  </div>
+
+  <div class="container">
+
+    <div class="box break">
+
+      <p class="control">Break<br>Length:</p> 
+      <button class="increase" id="breakIncrease">+</button>
+      <p class="set" id="breakTime">5</p>
+      <button class="decrease" id="breakDecrease">-</button>
+    
+    </div>
+
+    <div class="box timer" id="startTimer">
+    
+    <p id="sessionTitle">Current Session:</p>
+    <p class="clockBox" id="clock" >25:00</p>
+    <p class="begin">Click this box to start the timer</p>
+
+      
+    </div>
+
+    <div class="box length">
+    
+      <p class="control">Session<br>Length:</p>
+      <button class="increase" id="sessionIncrease">+</button>
+      <p class="set" id="sessionTime">25</p>
+      <button class="decrease" id="sessionDecrease">-</button>
+
+    </div>
+
+  </div>
+
+  <div class="refresh">
+
+    <button id="restart">Reset Clock</button>
+
+  </div>
+
+  <div class="credits">
+
+    <p style="color:orangered">Built by <a class="links" target="_blank" href="http://sean-smith.me">Sivaji</a> as a project for <a class="links" target="_blank" href="https://www.freecodecamp.com">SMAC SOCIETY</a></p>
+
+  </div>
+
+  <div class="secondCredits">
+
+    <p class="pomodoro"><a target="_blank" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">What is a Pomodoro, anyway?</a>  </p>
+
+  </div>
+
+  <div class="empty"><button id="reload"></button></div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+        
+  </body>
+</html>

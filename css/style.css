@@ -1,0 +1,158 @@
+body {
+    background: white;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    min-width: 1200px;
+  }
+  .title {
+    font-size: 25px;
+    color: rgb(231, 247, 10);
+    text-align: center;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -35px;
+  }
+  .box {
+    padding: 25px;
+    margin: 15px;
+    background: white;
+    border: 2px solid white;
+    text-align: center;
+  }
+  .timer {
+    width: 475px;
+  }
+  .timer:hover {
+    background: rgb(231, 247, 10);
+    cursor: pointer;
+  }
+  #sessionTitle {
+    padding: 0px;
+    margin: 10px;
+  }
+  .clockBox {
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(14, 13, 13);
+  }
+  .control {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .set {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .begin {
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  .previewBox {
+    text-align: center;
+    height: 0;
+  }
+  button#preview {
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    height: 25px;
+    width: 250px;
+    background: none;
+    color: rgb(12, 10, 10);
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  button#preview:hover {
+    color: rgb(4, 172, 203);
+  }
+  button.increase {
+    background: rgb(20, 127, 87);
+    color: white;
+    border: 2px solid white;
+  }
+  button.decrease {
+    background: rgb(178, 28, 52);
+    color: white;
+    border: 2px solid white;
+  }
+  button:hover {
+    background: white;
+    color: black;
+  }
+  button:focus {
+    outline: none;
+  }
+  .refresh {
+    text-align: center;
+    margin-top: -50px;
+  }
+  button#restart {
+    width: 200px;
+    height: 65px;
+    font-size: 25px;
+    background: rgb(231, 247, 10);
+  }
+  button#restart:hover {
+    background: rgb(4, 172, 203);
+    color: black;
+  }
+  button#restart:disabled {
+    color: black;
+  }
+  .credits {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .credits a,
+  .credits a:visited {
+    color: rgb(231, 247, 10);
+  }
+  .credits a:hover {
+    color: rgb(4, 172, 203);
+  }
+  .pomodoro,
+  .pomodoro a,
+  .pomodoro a:visited {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(14, 13, 13);
+  }
+  .pomodoro a:hover {
+    color: rgb(4, 172, 203);
+  }
+  button#reload {
+    visibility: none;
+    display: none;
+  }
